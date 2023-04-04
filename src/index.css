@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&family=Roboto&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Epilogue", sans-serif;
+}
+
+@layer components {
+  .home {
+    @apply flex flex-row flex-wrap items-center justify-center;
+  }
+  .flex-center-row {
+    @apply flex flex-row flex-wrap items-center justify-center;
+  }
+  .flex-center-col {
+    @apply flex flex-col flex-wrap items-center justify-center;
+  }
+  .column {
+    @apply flex m-3 justify-center flex-col;
+  }
+  .card-div {
+    @apply w-24 h-52 m-2 md:w-36 md:h-64 md:m-3;
+  }
+  .card-img {
+    @apply w-24 h-36 rounded-md md:w-36 md:h-52;
+  }
+  .card-title {
+    @apply text-xs mt-2 md:text-sm;
+  }
+
+  .cast-ui {
+    @apply rounded-2xl m-2 p-2  h-52 break-words md:h-64;
+  }
+  .button-ui {
+    @apply text-sm border-none p-2  bg-gradient-to-r from-purple-500 to-indigo-500 m-1 rounded-md;
+  }
+  .text {
+    @apply text-center text-2xl my-2 mx-2 md:text-left;
+  }
+  .text-small {
+    @apply text-center text-xs md:text-left mx-2;
+  }
+  .prev-next {
+    @apply w-12 h-14 m-2;
+  }
+}

@@ -1,0 +1,15 @@
+.App {
+  text-decoration: none;
+  background-color: rgb(18, 19, 28);
+  overflow: hidden;
+  color: white;
+}
+body {
+  background-color: rgb(18, 19, 28);
+}
+button {
+  outline: none;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
